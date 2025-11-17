@@ -56,7 +56,7 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 8934,
     prices: [
-      { platform: "Amazon", price: 136500, url: "#", inStock: true, logo: "🟠" },
+      { platform: "Amazon", price: 135500, url: "#", inStock: true, logo: "🟠" },
       { platform: "Flipkart", price: 135999, url: "#", inStock: true, logo: "🔵" },
       { platform: "Myntra", price: 133999, url: "#", inStock: true, logo: "🔴" },
       { platform: "Snapdeal", price: 134900, url: "#", inStock: false, logo: "🔴" },
@@ -85,7 +85,7 @@ export const products: Product[] = [
     reviews: 3421,
     prices: [
       { platform: "Amazon", price: 94999, url: "#", inStock: true, logo: "🟠" },
-      { platform: "Flipkart", price: 97999, url: "#", inStock: true, logo: "🔵" },
+      { platform: "Flipkart", price: 96999, url: "#", inStock: true, logo: "🔵" },
       { platform: "Myntra", price: 96500, url: "#", inStock: false, logo: "🔴" },
       { platform: "Snapdeal", price: 95999, url: "#", inStock: true, logo: "🔴" },
     ],
@@ -98,7 +98,7 @@ export const products: Product[] = [
     rating: 4.9,
     reviews: 6234,
     prices: [
-      { platform: "Amazon", price: 101999, url: "#", inStock: true, logo: "🟠" },
+      { platform: "Amazon", price: 100999, url: "#", inStock: true, logo: "🟠" },
       { platform: "Flipkart", price: 100500, url: "#", inStock: true, logo: "🔵" },
       { platform: "Myntra", price: 98999, url: "#", inStock: true, logo: "🔴" },
       { platform: "Snapdeal", price: 99900, url: "#", inStock: false, logo: "🔴" },
@@ -108,12 +108,12 @@ export const products: Product[] = [
     id: "6",
     name: "Canon EOS R6 Camera",
     category: "electronics",
-    image: "https://images.unsplash.com/photo-1606980623616-0e3db8250f7d?w=400",
+    image: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400",
     rating: 4.7,
     reviews: 1876,
     prices: [
-      { platform: "Amazon", price: 219999, url: "#", inStock: true, logo: "🟠" },
-      { platform: "Flipkart", price: 218999, url: "#", inStock: true, logo: "🔵" },
+      { platform: "Amazon", price: 218999, url: "#", inStock: true, logo: "🟠" },
+      { platform: "Flipkart", price: 219999, url: "#", inStock: true, logo: "🔵" },
       { platform: "Myntra", price: 222999, url: "#", inStock: false, logo: "🔴" },
       { platform: "Snapdeal", price: 220500, url: "#", inStock: true, logo: "🔴" },
     ],
