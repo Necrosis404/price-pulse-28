@@ -103,12 +103,6 @@ export const PriceComparisonModal = ({ product, open, onClose }: PriceComparison
             ))}
           </div>
 
-          <div className="bg-muted/50 p-4 rounded-lg">
-            <p className="text-sm text-muted-foreground">
-              💡 <strong>Pro Tip:</strong> Prices update in real-time. 
-              {sortedPrices[0].platform} offers the best deal right now!
-            </p>
-          </div>
         </div>
       </DialogContent>
     </Dialog>

@@ -20,21 +20,6 @@ const Index = () => {
       <Hero />
       
       <div className="container mx-auto px-4 py-12">
-        <section className="mb-16">
-          <h2 className="text-3xl font-bold text-foreground mb-8">
-            Browse by Category
-          </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-            {categories.map((category) => (
-              <CategoryCard
-                key={category.id}
-                category={category}
-                onClick={() => navigate(`/category/${category.id}`)}
-              />
-            ))}
-          </div>
-        </section>
-
         <section>
           <div className="flex items-center gap-2 mb-8">
             <Sparkles className="h-6 w-6 text-accent" />
