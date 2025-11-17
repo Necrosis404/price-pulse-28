@@ -3,12 +3,16 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 
-export const Hero = () => {
+interface HeroProps {
+  onSearch: (query: string) => void;
+}
+
+export const Hero = ({ onSearch }: HeroProps) => {
   const [searchQuery, setSearchQuery] = useState("");
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Searching for:", searchQuery);
+    onSearch(searchQuery);
   };
 
   return (
