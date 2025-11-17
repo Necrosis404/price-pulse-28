@@ -42,8 +42,8 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 5621,
     prices: [
-      { platform: "Amazon", price: 29990, url: "#", inStock: true, logo: "🟠" },
-      { platform: "Flipkart", price: 28999, url: "#", inStock: true, logo: "🔵" },
+      { platform: "Amazon", price: 28999, url: "#", inStock: true, logo: "🟠" },
+      { platform: "Flipkart", price: 29990, url: "#", inStock: true, logo: "🔵" },
       { platform: "Myntra", price: 30499, url: "#", inStock: false, logo: "🔴" },
       { platform: "Snapdeal", price: 29500, url: "#", inStock: true, logo: "🔴" },
     ],
@@ -56,10 +56,10 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 8934,
     prices: [
-      { platform: "Amazon", price: 134900, url: "#", inStock: true, logo: "🟠" },
-      { platform: "Flipkart", price: 133999, url: "#", inStock: true, logo: "🔵" },
-      { platform: "Myntra", price: 135999, url: "#", inStock: false, logo: "🔴" },
-      { platform: "Snapdeal", price: 136500, url: "#", inStock: false, logo: "🔴" },
+      { platform: "Amazon", price: 136500, url: "#", inStock: true, logo: "🟠" },
+      { platform: "Flipkart", price: 135999, url: "#", inStock: true, logo: "🔵" },
+      { platform: "Myntra", price: 133999, url: "#", inStock: true, logo: "🔴" },
+      { platform: "Snapdeal", price: 134900, url: "#", inStock: false, logo: "🔴" },
     ],
   },
   {
@@ -71,9 +71,9 @@ export const products: Product[] = [
     reviews: 2109,
     prices: [
       { platform: "Amazon", price: 29999, url: "#", inStock: true, logo: "🟠" },
-      { platform: "Flipkart", price: 28999, url: "#", inStock: true, logo: "🔵" },
-      { platform: "Myntra", price: 30499, url: "#", inStock: true, logo: "🔴" },
-      { platform: "Snapdeal", price: 29500, url: "#", inStock: false, logo: "🔴" },
+      { platform: "Flipkart", price: 30499, url: "#", inStock: true, logo: "🔵" },
+      { platform: "Myntra", price: 31999, url: "#", inStock: true, logo: "🔴" },
+      { platform: "Snapdeal", price: 28999, url: "#", inStock: true, logo: "🔴" },
     ],
   },
   {
@@ -84,10 +84,10 @@ export const products: Product[] = [
     rating: 4.6,
     reviews: 3421,
     prices: [
-      { platform: "Amazon", price: 95999, url: "#", inStock: true, logo: "🟠" },
-      { platform: "Flipkart", price: 94999, url: "#", inStock: true, logo: "🔵" },
-      { platform: "Myntra", price: 97999, url: "#", inStock: false, logo: "🔴" },
-      { platform: "Snapdeal", price: 96500, url: "#", inStock: true, logo: "🔴" },
+      { platform: "Amazon", price: 94999, url: "#", inStock: true, logo: "🟠" },
+      { platform: "Flipkart", price: 97999, url: "#", inStock: true, logo: "🔵" },
+      { platform: "Myntra", price: 96500, url: "#", inStock: false, logo: "🔴" },
+      { platform: "Snapdeal", price: 95999, url: "#", inStock: true, logo: "🔴" },
     ],
   },
   {
@@ -98,10 +98,10 @@ export const products: Product[] = [
     rating: 4.9,
     reviews: 6234,
     prices: [
-      { platform: "Amazon", price: 99900, url: "#", inStock: true, logo: "🟠" },
-      { platform: "Flipkart", price: 98999, url: "#", inStock: true, logo: "🔵" },
-      { platform: "Myntra", price: 101999, url: "#", inStock: true, logo: "🔴" },
-      { platform: "Snapdeal", price: 100500, url: "#", inStock: false, logo: "🔴" },
+      { platform: "Amazon", price: 101999, url: "#", inStock: true, logo: "🟠" },
+      { platform: "Flipkart", price: 100500, url: "#", inStock: true, logo: "🔵" },
+      { platform: "Myntra", price: 98999, url: "#", inStock: true, logo: "🔴" },
+      { platform: "Snapdeal", price: 99900, url: "#", inStock: false, logo: "🔴" },
     ],
   },
   {

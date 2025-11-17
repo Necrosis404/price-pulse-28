@@ -11,31 +11,45 @@ import { Sparkles } from "lucide-react";
 const Index = () => {
   const navigate = useNavigate();
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+  const [searchQuery, setSearchQuery] = useState("");
   
-  const featuredProducts = products.slice(0, 4);
+  const featuredProducts = products.slice(0, 12);
+  
+  const filteredProducts = searchQuery.trim() 
+    ? products.filter(product => 
+        product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        product.category.toLowerCase().includes(searchQuery.toLowerCase())
+      )
+    : featuredProducts;
 
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      <Hero />
+      <Hero onSearch={setSearchQuery} />
       
       <div className="container mx-auto px-4 py-12">
         <section>
           <div className="flex items-center gap-2 mb-8">
             <Sparkles className="h-6 w-6 text-accent" />
             <h2 className="text-3xl font-bold text-foreground">
-              Featured Deals
+              {searchQuery ? `Search Results for "${searchQuery}"` : "Featured Deals"}
             </h2>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {featuredProducts.map((product) => (
-              <ProductCard
-                key={product.id}
-                product={product}
-                onCompare={() => setSelectedProduct(product)}
-              />
-            ))}
-          </div>
+          {filteredProducts.length > 0 ? (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {filteredProducts.map((product) => (
+                <ProductCard
+                  key={product.id}
+                  product={product}
+                  onCompare={() => setSelectedProduct(product)}
+                />
+              ))}
+            </div>
+          ) : (
+            <div className="text-center py-12">
+              <p className="text-muted-foreground text-lg">No products found matching "{searchQuery}"</p>
+            </div>
+          )}
         </section>
       </div>
 
