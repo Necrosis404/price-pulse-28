@@ -16,10 +16,14 @@ const Index = () => {
   const featuredProducts = products.slice(0, 12);
   
   const filteredProducts = searchQuery.trim() 
-    ? products.filter(product => 
-        product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        product.category.toLowerCase().includes(searchQuery.toLowerCase())
-      )
+    ? products.filter(product => {
+        const query = searchQuery.toLowerCase();
+        return (
+          product.name.toLowerCase().includes(query) ||
+          product.category.toLowerCase().includes(query) ||
+          product.name.toLowerCase().split(' ').some(word => word.startsWith(query))
+        );
+      })
     : featuredProducts;
 
   return (
