@@ -470,7 +470,7 @@ export const products: Product[] = [
     prices: [
       { platform: "Amazon", price: 599, url: "#", inStock: true, logo: "🟠" },
       { platform: "Flipkart", price: 549, url: "#", inStock: true, logo: "🔵" },
-      { platform: "Myntra", price: 649, url: "#", inStock: true, logo: "🔴" },
+      { platform: "Meesho", price: 649, url: "#", inStock: true, logo: "🔴" },
       { platform: "Snapdeal", price: 575, url: "#", inStock: true, logo: "🔴" },
     ],
   },
@@ -484,7 +484,7 @@ export const products: Product[] = [
     prices: [
       { platform: "Amazon", price: 399, url: "#", inStock: true, logo: "🟠" },
       { platform: "Flipkart", price: 349, url: "#", inStock: true, logo: "🔵" },
-      { platform: "Myntra", price: 449, url: "#", inStock: true, logo: "🔴" },
+      { platform: "Meesho", price: 449, url: "#", inStock: true, logo: "🔴" },
       { platform: "Snapdeal", price: 375, url: "#", inStock: false, logo: "🔴" },
     ],
   },
@@ -498,7 +498,7 @@ export const products: Product[] = [
     prices: [
       { platform: "Amazon", price: 699, url: "#", inStock: true, logo: "🟠" },
       { platform: "Flipkart", price: 649, url: "#", inStock: true, logo: "🔵" },
-      { platform: "Myntra", price: 749, url: "#", inStock: true, logo: "🔴" },
+      { platform: "Meesho", price: 749, url: "#", inStock: true, logo: "🔴" },
       { platform: "Snapdeal", price: 675, url: "#", inStock: true, logo: "🔴" },
     ],
   },
@@ -512,7 +512,7 @@ export const products: Product[] = [
     prices: [
       { platform: "Amazon", price: 349, url: "#", inStock: true, logo: "🟠" },
       { platform: "Flipkart", price: 299, url: "#", inStock: true, logo: "🔵" },
-      { platform: "Myntra", price: 399, url: "#", inStock: true, logo: "🔴" },
+      { platform: "Meesho", price: 399, url: "#", inStock: true, logo: "🔴" },
       { platform: "Snapdeal", price: 325, url: "#", inStock: false, logo: "🔴" },
     ],
   },
@@ -526,7 +526,7 @@ export const products: Product[] = [
     prices: [
       { platform: "Amazon", price: 299, url: "#", inStock: true, logo: "🟠" },
       { platform: "Flipkart", price: 249, url: "#", inStock: true, logo: "🔵" },
-      { platform: "Myntra", price: 349, url: "#", inStock: true, logo: "🔴" },
+      { platform: "Meesho", price: 349, url: "#", inStock: true, logo: "🔴" },
       { platform: "Snapdeal", price: 275, url: "#", inStock: true, logo: "🔴" },
     ],
   },
@@ -540,7 +540,7 @@ export const products: Product[] = [
     prices: [
       { platform: "Amazon", price: 399, url: "#", inStock: true, logo: "🟠" },
       { platform: "Flipkart", price: 349, url: "#", inStock: true, logo: "🔵" },
-      { platform: "Myntra", price: 449, url: "#", inStock: false, logo: "🔴" },
+      { platform: "Meesho", price: 449, url: "#", inStock: false, logo: "🔴" },
       { platform: "Snapdeal", price: 375, url: "#", inStock: true, logo: "🔴" },
     ],
   },
@@ -554,7 +554,7 @@ export const products: Product[] = [
     prices: [
       { platform: "Amazon", price: 199, url: "#", inStock: true, logo: "🟠" },
       { platform: "Flipkart", price: 179, url: "#", inStock: true, logo: "🔵" },
-      { platform: "Myntra", price: 229, url: "#", inStock: true, logo: "🔴" },
+      { platform: "Meesho", price: 229, url: "#", inStock: true, logo: "🔴" },
       { platform: "Snapdeal", price: 189, url: "#", inStock: true, logo: "🔴" },
     ],
   },
@@ -568,7 +568,7 @@ export const products: Product[] = [
     prices: [
       { platform: "Amazon", price: 449, url: "#", inStock: true, logo: "🟠" },
       { platform: "Flipkart", price: 399, url: "#", inStock: true, logo: "🔵" },
-      { platform: "Myntra", price: 499, url: "#", inStock: true, logo: "🔴" },
+      { platform: "Meesho", price: 499, url: "#", inStock: true, logo: "🔴" },
       { platform: "Snapdeal", price: 425, url: "#", inStock: false, logo: "🔴" },
     ],
   },
@@ -582,7 +582,7 @@ export const products: Product[] = [
     prices: [
       { platform: "Amazon", price: 3499, url: "#", inStock: true, logo: "🟠" },
       { platform: "Flipkart", price: 3299, url: "#", inStock: true, logo: "🔵" },
-      { platform: "Myntra", price: 3699, url: "#", inStock: true, logo: "🔴" },
+      { platform: "Meesho", price: 3699, url: "#", inStock: true, logo: "🔴" },
       { platform: "Snapdeal", price: 3450, url: "#", inStock: true, logo: "🔴" },
     ],
   },
@@ -596,7 +596,7 @@ export const products: Product[] = [
     prices: [
       { platform: "Amazon", price: 299, url: "#", inStock: true, logo: "🟠" },
       { platform: "Flipkart", price: 269, url: "#", inStock: true, logo: "🔵" },
-      { platform: "Myntra", price: 329, url: "#", inStock: false, logo: "🔴" },
+      { platform: "Meesho", price: 329, url: "#", inStock: false, logo: "🔴" },
       { platform: "Snapdeal", price: 285, url: "#", inStock: true, logo: "🔴" },
     ],
   },
@@ -972,7 +972,7 @@ export const products: Product[] = [
     prices: [
       { platform: "Amazon", price: 449, url: "#", inStock: true, logo: "🟠" },
       { platform: "Flipkart", price: 399, url: "#", inStock: true, logo: "🔵" },
-      { platform: "Myntra", price: 499, url: "#", inStock: true, logo: "🔴" },
+      { platform: "Meesho", price: 499, url: "#", inStock: true, logo: "🔴" },
       { platform: "Snapdeal", price: 425, url: "#", inStock: true, logo: "🔴" },
     ],
   },
@@ -986,7 +986,7 @@ export const products: Product[] = [
     prices: [
       { platform: "Amazon", price: 399, url: "#", inStock: true, logo: "🟠" },
       { platform: "Flipkart", price: 349, url: "#", inStock: true, logo: "🔵" },
-      { platform: "Myntra", price: 449, url: "#", inStock: true, logo: "🔴" },
+      { platform: "Meesho", price: 449, url: "#", inStock: true, logo: "🔴" },
       { platform: "Snapdeal", price: 375, url: "#", inStock: false, logo: "🔴" },
     ],
   },
