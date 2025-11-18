@@ -1,8 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
 import { Product } from "@/data/mockData";
-import { Star, TrendingDown } from "lucide-react";
+import { Star } from "lucide-react";
 
 interface ProductCardProps {
   product: Product;
@@ -38,12 +37,6 @@ export const ProductCard = ({ product, onCompare }: ProductCardProps) => {
 
         <div className="flex items-baseline gap-2">
           <span className="text-2xl font-bold text-success">₹{lowestPrice.toLocaleString()}</span>
-          {savings > 0 && (
-            <Badge variant="secondary" className="bg-success/10 text-success border-success/20">
-              <TrendingDown className="h-3 w-3 mr-1" />
-              Save {savingsPercent}%
-            </Badge>
-          )}
         </div>
 
         <Button 
